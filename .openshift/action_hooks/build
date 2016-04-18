@@ -18,7 +18,7 @@ pushd ${OPENSHIFT_DATA_DIR} >/dev/null
 mkdir -p ./build
 
 curl --output ./build/glib.tar.xz -qs http://ftp.gnome.org/pub/GNOME/sources/glib/2.39/glib-2.39.91.tar.xz
-curl --output ./build/irssi.tar.gz -Lqs http://www.irssi.org/files/irssi-0.8.16-rc1.tar.gz
+curl --output ./build/irssi.tar.gz -Lqs https://github.com/irssi/irssi/releases/download/0.8.19/irssi-0.8.19.tar.gz
 
 # Install glib
 #
